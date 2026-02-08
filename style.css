@@ -1,0 +1,49 @@
+html {
+    background-color:bisque;
+}
+
+header {
+    background-color:chocolate;
+}
+
+.nav-btn {
+    background-color: cornflowerblue;
+}
+
+.nav-link {
+    color:black;
+    font-family:monospace;
+}
+
+h1 {
+    font-family: monospace;
+}
+
+#header-header {
+    font-size:x-large;
+}
+
+#hero-header {
+    font-size: large;
+}
+
+p {
+    font-family:'Courier New', Courier, monospace;
+}
+
+#offerings-header {
+    font-size:large;
+}
+
+.skill-offerings {
+    background-color: chocolate;
+}
+
+#offerings-list {
+    background-color:brown;
+}
+
+.offering-entry {
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
