@@ -15,10 +15,6 @@ header {
     font-family:monospace;
 }
 
-h1 {
-    font-family: monospace;
-}
-
 #header-header {
     font-size:x-large;
 }
@@ -41,9 +37,33 @@ p {
 
 #offerings-list {
     background-color:brown;
+    display: flex;
+    flex-direction: column;
 }
 
 .offering-entry {
     color: white;
-    font-family:'Courier New', Courier, monospace;
+    font-family:monospace;
+    flex-basis: calc(50% - 5px);
+    margin: 8px;
+}
+
+.skill-card {
+    display: flex;
+    flex-direction: column;
+
+    background-color: chocolate;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.skl-card-title {
+    font-family: monospace;
+    font-size: medium;
+    color: white;
+}
+
+h1 {
+    font-family: monospace;
 }
